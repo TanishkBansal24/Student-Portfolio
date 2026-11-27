@@ -267,17 +267,16 @@ nav li:last-child a:hover {
     color: #fff;
     transform: translateY(-5px) rotate(-8deg);
 }
-/* Hover colours for individual hero icons */
 .icon i.fa-whatsapp:hover {
-    background: #25D366;   /* WhatsApp green */
+    background: #25D366;   
 }
 
 .icon i.fa-github:hover {
-    background: #111111;   /* GitHub black */
+    background: #111111;   
 }
 
 .icon i.fa-envelope:hover {
-    background: #FF8A8A;   /* light red */
+    background: #FF8A8A;   
 }
 
 .hero-right {
@@ -598,6 +597,7 @@ nav li:last-child a:hover {
     display: flex;
     align-items: center;
     gap: 16px;
+    margin: auto;
     margin-bottom: 20px;
 }
 
@@ -624,35 +624,7 @@ nav li:last-child a:hover {
     color: rgba(255, 255, 255, .65);
 }
 
-.card-bottom {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
 
-.progress {
-    flex: 1;
-    height: 9px;
-    background: rgba(255, 255, 255, .14);
-    border-radius: 9px;
-    overflow: hidden;
-}
-
-.progress-bar {
-    height: 100%;
-    border-radius: 9px;
-    background: linear-gradient(90deg, var(--turquoise), var(--marigold));
-    transform-origin: left;
-    animation: grow 1.5s var(--ease) .3s backwards;
-}
-
-.card-bottom p {
-    font-family: var(--display);
-    font-weight: 700;
-    min-width: 3ch;
-    text-align: right;
-    color: #fff;
-}
 .Assignment {
     padding: var(--section-y) var(--side);
 }
